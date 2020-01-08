@@ -23,12 +23,19 @@ body {
 
 section {
   background-color: #e2e2e2;
+  display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
+}
+
+.content {
+  display: inline-block;
+  max-width: 50em;
 }
 
 p {
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 a {
@@ -36,16 +43,16 @@ a {
   border-radius: 4px;
   color: #fff;
   font-weight: lighter;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   text-decoration: none;
 }
 
 img {
-  display: block;
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .img-flex {
+  display: block;
   width: 100%;
 }
 
