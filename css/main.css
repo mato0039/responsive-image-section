@@ -25,10 +25,10 @@ section {
   background-color: #e2e2e2;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
-.content {
+.wrapper {
   display: inline-block;
   max-width: 50em;
 }
@@ -45,6 +45,10 @@ a {
   font-weight: lighter;
   padding: .5em .75em;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 img {
@@ -82,10 +86,13 @@ img {
   }
 
   .content {
-    padding-right: 2rem;
-  }
-
+    padding-right: 1rem;
+    width: 50%;
 }
+
+  .image {
+    width: 50%;
+  }
 
 @media only screen and (min-width: 60em) {
 
@@ -100,10 +107,6 @@ img {
 
   html {
     font-size: 130%;
-  }
-
-  .content {
-    max-width: 50em;
   }
 
 }
